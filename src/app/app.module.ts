@@ -4,12 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { SummaryComponent } from './components/summary/summary.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { ManageComponent } from './components/manage/manage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    SummaryComponent,
+    DashboardComponent,
+    ManageComponent
   ],
   imports: [
     BrowserModule,
